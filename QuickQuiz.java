@@ -63,11 +63,11 @@ public class QuickQuiz extends JFrame implements ActionListener, WindowListener 
     }
 
     public void DisplayGUI() {
-        setSize(900,800);
-        setLocation(50,50);
-        setTitle("Quick Quiz");
-        setResizable(false);
-        this.getContentPane().setBackground(backgroundcolor);
+       // setSize(900,800);
+       // setLocation(50,50);
+        //setTitle("Quick Quiz");
+       // setResizable(false);
+       // this.getContentPane().setBackground(backgroundcolor);
         addWindowListener(new WindowAdapter()
         {
             @Override
